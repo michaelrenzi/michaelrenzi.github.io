@@ -1,0 +1,104 @@
+/*Fonts*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, .navbar-brand {
+  font-family: 'Roboto', sans-serif;
+}
+/*Navigation*/
+.navbar-fixed-top {
+  top: -10px;
+  left: -17px;
+  right: -17px;
+}
+div.title {
+  padding-bottom:.5rem;
+  background:#003300;
+  height: 60px;
+}
+.navbar div.title img {
+  border-radius: 10px;
+  height:150px;
+  width:150px;
+  margin:10px;
+  float:right;
+  border-left:8px solid black;
+  border-top:2px solid black;
+  border-right:2px solid black;
+  border-bottom:2px solid black;
+  transition: width .5s, height .5s, background-color .5s, transform .5s
+}
+@media (min-width:768px) {
+.navbar.affix div.title img {
+  height:40px;
+  width:40px;
+  border:none;
+}
+}
+@media (max-width:768px) {
+  .navbar div.title img {
+  height:40px;
+  width:40px;
+  border:none;
+}
+}
+p.title {
+  color:white;
+  float:right;
+  margin:10px 10px 0px 0px;
+  font-size:26px;
+  font-weight:600;
+}
+hr {
+  border-top:.5px groove #d9d9d9;
+}
+section#feature {
+  text-align: center;
+  background-image: url('../img/st-lucia.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  min-height:200px;
+  padding-top: 110px;
+}
+.feature {
+  color: white;
+  text-shadow: 3px 3px 5px #000000;;
+}
+.centered {
+  margin-left:auto;
+  margin-right:auto;
+}
+section#content {
+  padding-top: 10px;
+}
+/*Footer*/
+div.footer {
+  background:#a6a6a6;
+  margin-top:10px;
+  padding: 10px 0px 10px 20px;
+}
+div.footer p {
+  color:white;
+  margin-bottom:0rem;
+  text-align:center;
+  font-size: 26px;
+  line-height: 1;
+}
+a.resume {
+  font-size:14px;
+  border-bottom: 1px dotted;
+}
+a.resume:hover {
+  text-decoration: none;
+
+}
+.project-image {
+  border-radius:10px;
+  border:1px solid black;
+  float:none;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width:100%;
+}
